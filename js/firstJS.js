@@ -51,3 +51,28 @@
     //    console.log('Yes!');
    //     break;
 //}
+
+const a = +prompt('');
+const c = +prompt('');
+const b = +prompt('');
+const butMin = "-",
+      butMul = "*",
+      butDiv = "/",
+      butPlus = "+";
+
+function minusa() {
+    return (a - b);
+}
+function multip() {
+    return (a * b);
+}
+function devis() {
+    return (a / b);
+}
+function calculate() {
+    return (a + b);
+}
+
+if (c == butMin) {
+    alert(minusa());
+}
