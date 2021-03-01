@@ -35,3 +35,19 @@
 
 //let names = prompt("Write your name, please!:","");
 //console.log(`Hi there, ${names}`);
+
+//const tsifr = 55;
+//(tsifr == 55) ? console.log ("Ok") : console.log("Error");
+
+//const redFlag = 99;
+//switch (redFlag) {
+  //  case 55:
+  //      console.log('Error');
+  //      break;
+   // case 56:
+   //     console.log('Not 55');
+   //     break;
+   // case 99: 
+    //    console.log('Yes!');
+   //     break;
+//}
