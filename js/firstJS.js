@@ -52,27 +52,62 @@
    //     break;
 //}
 
-const a = +prompt('');
-const c = +prompt('');
-const b = +prompt('');
-const butMin = "-",
-      butMul = "*",
-      butDiv = "/",
-      butPlus = "+";
 
-function minusa() {
-    return (a - b);
-}
-function multip() {
-    return (a * b);
-}
-function devis() {
-    return (a / b);
-}
-function calculate() {
-    return (a + b);
-}
+// const a = prompt('Выберите число "А":',"");
+// const c = prompt('Выберите действие:', "");
+// const b = prompt('Выберите число "Б":',"");
+// const butMin = "-",
+//       butMul = "*",
+//       butDiv = "/",
+//       butPlus = "+";
 
-if (c == butMin) {
-    alert(minusa());
-}
+// function minusa() {
+//     return (a - b);
+// }
+// function multip() {
+//     return (a * b);
+// }
+// function devis() {
+//     return (a / b);
+// }
+// function calculate() {
+//     return (a + b);
+// }
+
+// if (c == butMin) {
+//     alert(`Результат ${a} - ${b} = ` + minusa());
+// } else if (c == butMul) {
+//     alert(`Результат ${a} * ${b} = ` + multip());
+// } else if (c == butDiv) {
+//     alert(`Результат ${a} / ${b} = ` + devis());
+// } else if (c == butPlus) {
+//     alert(`Результат ${a} + ${b} = ` + calculate());
+// } else {
+//     alert('error');
+// }
+
+// const der = "rererer";
+// console.log(der.length);
+// const str = "test";
+// const arr = [1, 2, 3];
+// console.log(arr[0]);
+// console.log(str.toUpperCase());
+
+// const fruit = "Some fruit";
+// console.log(fruit.indexOf("fruit"));
+
+// const logg = "Hello world";
+// console.log(logg.slice(1,4));
+
+// const logg1 = "Hello world";
+// console.log(logg1.substring(0,4));
+
+// const logg3 = "Hello world";
+// console.log(logg3.substr(0,4));
+
+const num = 14.2;
+console.log(Math.round(num));
+
+const num = "14.2px";
+console.log(parseInt(num));
+console.log(parseFloat(num));
