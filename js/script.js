@@ -66,3 +66,5 @@ function showMyDB(hidden) {
 }
 
 showMyDB(personalMovieBD.privat);
+
+
