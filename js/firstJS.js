@@ -105,9 +105,9 @@
 // const logg3 = "Hello world";
 // console.log(logg3.substr(0,4));
 
-const num = 14.2;
-console.log(Math.round(num));
+// const num = 14.2;
+// console.log(Math.round(num));
 
-const num = "14.2px";
-console.log(parseInt(num));
-console.log(parseFloat(num));
+// const num = "14.2px";
+// console.log(parseInt(num));
+// console.log(parseFloat(num));
