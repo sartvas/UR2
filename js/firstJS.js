@@ -111,3 +111,44 @@
 // const num = "14.2px";
 // console.log(parseInt(num));
 // console.log(parseFloat(num));
+
+//Раздел 2. Урок 20
+
+// const options = {
+//   name: 'test',
+//   wight: 1024,
+//   hiegh: 1024,
+//   colors: {
+//     border: 'black',
+//     bg: 'red'
+//   },
+//   makeTest: function() {
+//     console.log("Test");
+//   }
+// };
+
+// console.log(Object.keys(options).length);      
+
+// console.log(options.colors.border);
+// console.log(options["colors"]["border"]);
+// //delete options.name;
+// // console.log(options);
+
+// for (let key in options) {
+//     console.log(`Свойства ${key} содержит значение ${options[key]}`);
+// }
+
+// Раздел 2. Урок 21
+
+const arr = [1, 2, 3, 4, 5, 6, 7, 8];
+//arr.pop();
+//arr.push(10);\
+// for (let i = 0; i < arr.length; i++) {
+//     console.log(arr[i]);
+// }
+for (let value of arr) {
+  console.log(value);
+}
+
+console.log(arr);
+
