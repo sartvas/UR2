@@ -140,15 +140,72 @@
 
 // Раздел 2. Урок 21
 
-const arr = [1, 2, 3, 4, 5, 6, 7, 8];
-//arr.pop();
-//arr.push(10);\
-// for (let i = 0; i < arr.length; i++) {
-//     console.log(arr[i]);
+// const arr = [23, 34, 67, 78, 99, 126, 345, 347];
+// arr.forEach(function(value, i, arr) {
+//     console.log(`У индекса ${i} значение: ${value}`);
+// });
+// //arr.pop();
+// //arr.push(10);\
+// // for (let i = 0; i < arr.length; i++) {
+// //     console.log(arr[i]);
+// // }
+// // for (let value of arr) {
+// //   console.log(value);
+// // }
+
+// console.log(arr);
+
+// Раздел 2. Урок 22
+
+// const obj = {
+//   a: 5,
+//   b: 1,
+//   c: 4
+// };
+
+// const copy = obj;
+
+// // copy.a = 10;
+
+// function coping(den) {
+//   const objZ = {};
+//   for (let key in den) {
+//     objZ[key] = den[key];
+//   }
+//   return objZ;
 // }
-for (let value of arr) {
-  console.log(value);
-}
 
-console.log(arr);
+// const obj2 = coping(obj);
 
+// obj2.b = 10;
+
+// console.log(obj);
+// console.log(obj2);
+
+// const obj1 = {
+//   a: 3,
+//   b: 5,
+//   c: 10
+// };
+
+// const obj2 = {
+//   e: 34,
+//   r: 22,
+//   z: 21
+// };
+
+// //console.log(Object.assign(obj1, obj2));
+
+// const obj3 = Object.assign({}, obj2);
+// obj3.z = 555;
+// console.log(obj2);
+// console.log(obj3);
+
+// const arr1 = ["a", "b", "c", "dd", "ff"];
+// const arr2 = arr1.slice();
+// arr2.push('sss');
+// console.log(arr2);
+// const arr3 = [...arr1, ...arr2, "777", "999"];
+// console.log(arr3);
+
+// Раздел 2. Урок 22
