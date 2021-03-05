@@ -194,12 +194,14 @@
 //   z: 21
 // };
 
-// //console.log(Object.assign(obj1, obj2));
+// console.log(Object.assign(obj1, obj2));
 
 // const obj3 = Object.assign({}, obj2);
 // obj3.z = 555;
 // console.log(obj2);
 // console.log(obj3);
+// const obj4 = {...obj3.z};
+// console.log(obj4);
 
 // const arr1 = ["a", "b", "c", "dd", "ff"];
 // const arr2 = arr1.slice();
@@ -208,4 +210,15 @@
 // const arr3 = [...arr1, ...arr2, "777", "999"];
 // console.log(arr3);
 
-// Раздел 2. Урок 22
+// Раздел 2. Урок 26
+
+console.log(typeof(String(null)));
+
+const din = "?";
+console.log("https://vk.com/catalog" + din);
+
+console.log(typeof(+'5'));
+
+const answer = +prompt();
+
+// 0, "", null, undefinded, NaN
